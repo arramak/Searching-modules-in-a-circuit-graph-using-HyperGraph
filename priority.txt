@@ -1,0 +1,8 @@
+2 1 Cascode_Current_Mirror
+3 1 Differential_Stage
+1 1 Level_Shifter
+2 2 Current_Mirror_Bank
+2 3 4-Transistor_Current_Model
+1 2 Current_Mirror_Load
+1 3 Differential_Pair
+1 4 Simple_Current_Mirror

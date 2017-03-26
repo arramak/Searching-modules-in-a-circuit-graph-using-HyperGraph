@@ -1,0 +1,41 @@
+** Generated for: hspiceD
+** Generated on: Mar 22 21:00:37 2017
+** Design library name: SPICE_Test
+** Design cell name: Folded_Cascode_OpAmp
+** Design view name: schematic
+.GLOBAL vdd
+
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
+
+** Library name: SPICE_Test
+** Cell name: Folded_Cascode_OpAmp
+** View name: schematic
+MP1 net1 net2 net3 vdd PMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MP2 net2 net4 net3 vdd PMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MP3 net1 net5 net7 vdd PMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MP4 net5 net18 net7 vdd PMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MP5 net1 net6 net9 vdd PMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MP6 net8 net10 net18 vdd PMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MP7 net1 net12 net9 vdd PMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MP8 net12 net13 net14 vdd PMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MP9 net1 net15 net16 vdd PMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MP10 net15 net17 net18 vdd PMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MN7 net19 net12 net20 0 NMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MN8 net21 net15 net22 0 NMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MN2 net23 net4 net24 0 NMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MN1 net25 net23 net26 0 NMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MN4 net27 net10 net24 0 NMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MN3 net28 net27 net26 0 NMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MN6 net29 net19 net24 0 NMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MN5 net32 net29 net28 0 NMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MN10 net30 net13 net13 0 NMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MN9 net31 net30 net30 0 NMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MN12 net32 net17 net13 0 NMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+MN11 net33 net32 net30 0 NMOS L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+.END
