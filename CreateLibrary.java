@@ -38,20 +38,4 @@ public class CreateLibrary {
         return map;
     }
 
-    // public int getPValue(String circuitName) { // get priority of Circuit
-    //     for(Map.Entry<Priority,String> entry : map.entrySet()) {
-    //         if(entry.getValue().equals(circuitName+".txt")) {
-    //             return entry.getKey().pValue;
-    //         }
-    //     }
-    //     return -1; // not found
-    // }
-
-    // public void setPValue(String circuitName,int pValue) { // set priority of Circuit
-    //     for(Map.Entry<Priority,String> entry : map.entrySet()) {
-    //         if(entry.getValue().equals(circuitName+".txt")) {
-    //             entry.getKey().pValue = pValue;
-    //         }
-    //     }
-    // }
 }
