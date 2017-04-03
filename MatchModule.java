@@ -117,9 +117,18 @@ public class MatchModule {
                 }
                 String net = givenCkt.components.get(j).source;
                 List<String> netCons = givenCkt.netListMap.get(net);
+                List<String> libNetCons = libCkt.netListMap.get(net);
                 if(netCons.get(0).contains(".source")) {
                     givenCktBool.get(givenCkt.components.get(j).name).set(0,true);
                     libCktBool.get(libCkt.components.get(j).name).set(0,true);
+                    j++;
+                }
+                String trans_ckt = netCons.get(1).split("\\.")[1];
+                String trans_lib = libNetCons.get(1).split("\\.")[1];
+                if(trans_ckt.equals(trans_lib)) {
+                    givenCktBool.get(givenCkt.components.get(j).name).set(1,true);
+                    libCktBool.get(libCkt.components.get(j).name).set(1,true);
+                    j++;
                 }
                 count--;
             }
